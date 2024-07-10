@@ -1,0 +1,32 @@
+.offer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-left: 180px;
+    padding-right: 135px;
+    background: #f6f6f6;
+    
+}
+
+.offer h1{
+    color:  #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.offer hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.offersproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
